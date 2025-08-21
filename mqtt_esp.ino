@@ -10,15 +10,11 @@
 #include <Adafruit_Sensor.h>
 
 // Replace the next variables with your SSID/Password combination
-//const char* ssid = "frsfpublica";
-//const char* ssid = "Maranata7";
-//const char* password = "22081844";
-const char* ssid = "Cel_PG";
-const char* password = "23456789";
+const char* ssid = "ssid";
+const char* password = "contrasena";
 
 // Add your MQTT Broker IP address, example:
-//const char* mqtt_server = "192.168.100.111";
-const char* mqtt_server = "10.204.87.53";
+const char* mqtt_server = "192.168.100.111";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
